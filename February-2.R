@@ -1,28 +1,10 @@
 #
 #   February 2
 #
-#  We'll start by reviewing a few ideas 
-#  for Thursday's Quiz:
 
-#  Data Structures, 
-#  Data Types in R, 
-#  Quantitative vs Categorical data,
-#  Functions and arguments (named and positional)
-#  Tidy data, 
-#  Programs and Packages, 
-#  Installing and Loading,
-#  Meaning of   <-   in R
-#  Meaning of   %>%  in dplyr in R
-#  A little bit of writing code....  
-#  So here's some practice:
 
 #  Enter these vectors in R:
 
-#  Animal:  cat, dog, pig, opossum, horse, human
-#  Sleep:  12.5, 10.1, 9.1, 18.0,  2.9, 8
-#  REM:  3.2, 2.9, NA, 4.9, 0.6, 1.9   (don't put the NA in quotes)
-#  Brain:  .026, .07, .18,.006, .655, 1.32
-#  Body:  3.3, 14, 86.2, 1.7, 521, 62
 Animal <- c('cat','dog','pig','opossum','horse','human')
 Sleep <- c(12.5, 10.1, 9.1, 18.0,  2.9, 8)
 REM <- c(3.2, 2.9, NA, 4.9, 0.6, 1.9) #   (don't put the NA in quotes)
