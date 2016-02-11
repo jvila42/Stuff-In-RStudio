@@ -1,0 +1,31 @@
+//THIS WILL ONLY BE UPLOADED AFTER HOMEWORK IS ACCEPTED AND GRADED.
+
+
+---
+title: "Homework 2"
+author: "Jose Vila"
+date: "2/11/16"
+output: 
+  html_document:
+    fig_height: 3
+    fig_width: 5
+---
+<!-- Don't edit in between this line and the one below -->
+```{r include=FALSE}
+# Don't delete this chunk if you are using the DataComputing package
+library(DataComputing)
+```
+*Names of children as recorded by the US Social Security Administration.*
+```{r, results='asis', echo=FALSE}
+Jose<-BabyNames %>%  filter(name=='Jose')  
+
+Jose   %>%
+  ggplot(aes(x=year,y=count))  + geom_point(aes(color=sex)) +
+  geom_vline(xintercept = 1996)
+```
+<!-- Don't edit the material above this line -->
+
+Name Trend for Jose
+
+As you can see, there was a heavy influx in the number of Jose's born in the 90s and 00s,
+peaking at around 2002. There has been a steady decline in the number of Joses born as of late.
